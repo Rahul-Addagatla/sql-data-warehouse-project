@@ -37,8 +37,17 @@ FROM bronze.crm_cust_info;
 
 -- Standardizing
 SELECT
+CASE UPPER(cst_gndr)
+	WHEN 'F' THEN 'Female'
+	WHEN 'M' THEN 'Male'
+	ELSE 'n/a'
+END cst_gndr
+FROM bronze.crm_cust_info
+/*
+SELECT
 CASE WHEN UPPER(cst_gndr) = 'F' THEN 'Female'
 	WHEN UPPER(cst_gndr) = 'M' THEN 'Male'
 	ELSE 'n/a'
 END cst_gndr
 FROM bronze.crm_cust_info
+*/
