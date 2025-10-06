@@ -1,5 +1,6 @@
 
 # Data Warehouse and Analytics Project
+<img width="1544" height="912" alt="data_architecture" src="https://github.com/user-attachments/assets/4ecd7ba3-eb15-4240-90fc-c15c258d1a30" />
 
 ---
 ## Data Architecture
